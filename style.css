@@ -34,6 +34,12 @@ html {
   overflow: hidden;
 }
 
+@media (max-width: 400px) {
+  html {
+    font-size: 100%;
+  }
+}
+
 h1 {
   font-size: 2rem;
   line-height: 1;
@@ -96,6 +102,6 @@ body {
   flex: 0 1 var(--column-width);
   height: 100%;
   margin: auto;
-  padding: 3rem;
+  padding: 1rem;
   padding-bottom: 0;
 }
